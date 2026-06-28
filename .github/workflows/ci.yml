@@ -121,7 +121,7 @@ jobs:
         docker push ${{ secrets.DOCKER_USERNAME }}/the-button:${SHORT_SHA}
         docker push ${{ secrets.DOCKER_USERNAME }}/the-button:latest
 
- deploy-to-dev:
+  deploy-to-dev:
     needs: build-and-push
     runs-on: ubuntu-latest
     environment: development
