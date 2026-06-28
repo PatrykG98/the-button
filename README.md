@@ -11,7 +11,7 @@ Prosta aplikacja w Django z jednym przyciskiem `Ping`, który wysyła zapytanie 
 - `pip` lub `virtualenv` (jeśli uruchamiasz bez Dockera)
 
 ---
-
+ZMIANA
 ## 🚀 Uruchamianie aplikacji
 
 Masz dwie możliwości:
